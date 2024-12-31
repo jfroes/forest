@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../output.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body class="m-8">
+    <div class="grid gap-4">
+      <h1 class="font-bold">ESCOLHA A SUA</h1>
+
+      <div>
+        <input
+          type="radio"
+          name="bike"
+          id="Nimbus"
+          value="Nimbus"
+          class="peer mr-1"
+        />
+        <label
+          for="Nimbus"
+          class="bg-slate-200 p-2 mb-2 inline-grid grid-cols-[200px_auto] rounded-md peer-checked:bg-slate-400 hover:bg-slate-300 cursor-pointer"
+        >
+          <span>Nimbus Stark</span>
+          <span>R$ 4999</span>
+        </label>
+        <ul
+          class="ml-5 bg-slate-200 p-2 rounded-md hidden peer-checked:block max-w-52"
+        >
+          <li>Motor Elétrico</li>
+          <li>Fibra de Carbono</li>
+          <li>50 km/h</li>
+          <li>Rastreador</li>
+        </ul>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="bike"
+          id="Magic"
+          value="Magic"
+          class="peer mr-1"
+        />
+        <label
+          for="Magic"
+          class="bg-slate-200 p-2 mb-2 rounded-md peer-checked:bg-slate-400 hover:bg-slate-300 cursor-pointer inline-grid grid-cols-[200px_auto]"
+        >
+          <span>Magic Might</span>
+          <span>R$ 2499</span>
+        </label>
+        <ul
+          class="ml-5 bg-slate-200 p-2 rounded-md hidden peer-checked:block max-w-52"
+        >
+          <li>Motor Elétrico</li>
+          <li>Fibra de Carbono</li>
+          <li>45 km/h</li>
+          <li>Rastreador</li>
+        </ul>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="bike"
+          id="Nebula"
+          value="Nebula"
+          class="peer mr-1"
+        />
+        <label
+          for="Nebula"
+          class="bg-slate-200 p-2 rounded-md peer-checked:bg-slate-400 hover:bg-slate-300 cursor-pointer inline-grid grid-cols-[200px_auto]"
+        >
+          <span>Nebula Cosmic</span>
+          <span>R$ 3999</span>
+        </label>
+        <ul
+          class="ml-5 bg-slate-200 p-2 rounded-md mt-3 hidden peer-checked:block max-w-52"
+        >
+          <li>Motor Elétrico</li>
+          <li>Fibra de Carbono</li>
+          <li>40 km/h</li>
+          <li>Rastreador</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
