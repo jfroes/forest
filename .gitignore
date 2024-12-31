@@ -2,4 +2,4 @@
 /*/
 
 # Exceto a pasta específica
-!src/projeto_final/
+!src/projeto_final
