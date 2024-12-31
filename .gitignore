@@ -1,0 +1,5 @@
+# Ignore todas as pastas
+/*/
+
+# Exceto a pasta específica
+!projeto_final/
