@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../output.css" />
+
+    <title>Document</title>
+  </head>
+  <body class="m-8">
+    <form
+      action=""
+      class="bg-gray-100 max-w-sm p-8 rounded-md mx-auto accent-purple-500"
+    >
+      <div class="grid gap-1">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="border-2 border-gray-300 rounded-md p-2 focus:border-fuchsia-500 focus:ring-2 focus:ring-fuchsia-200 focus:outline-none"
+        />
+      </div>
+
+      <div>
+        <label class="flex items-center gap-2" for="termos">
+          <input
+            id="termos"
+            name="termos"
+            type="checkbox"
+            class="size-4 focus:border-purple-400 focus:ring-purple-100 focus:outline-purple-400"
+            checked
+          />Li e aceito os termos.</label
+        >
+      </div>
+
+      <select
+        class="mb-4 border-2 rounded-md p-2 border-gray-300 focus:border-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-100 appearance-none pr-8 bg-[url('./imgs/seta.svg')] bg-no-repeat bg-[center_right_0.5rem]"
+        name=""
+        id=""
+      >
+        <option value="">Rio de Janeiro</option>
+        <option value="">São Paulo</option>
+        <option value="">Tocantins</option>
+      </select>
+
+      <input
+        type="file"
+        name="file"
+        id="file"
+        class="file:border-2 file:border-purple-400 file:rounded-md file:px-4 file:py-2 file:border-solid file:bg-gray-100 hover:file:bg-red-300 focus:outline-none file:focus:border-yellow-400"
+      />
+    </form>
+  </body>
+</html>
